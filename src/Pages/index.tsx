@@ -417,6 +417,40 @@ export default function Home() {
               </ul>
             </div>
           </div>
+
+          <div className="timeline__item">
+            <div className="timeline__aside">
+              <span className="timeline__date">2019</span>
+              <div className="timeline__line" />
+              <span className="timeline__date">2022</span>
+            </div>
+            <div className="card timeline__card">
+              <div className="card__header-row">
+                <div className="card__header-left">
+                  <div className="card__title-row">
+                    <h3 className="card__name">{t.education.university}</h3>
+                    <span className="card__title-sep">|</span>
+                    <p className="card__subtitle">
+                      {t.education.universityLocation}
+                    </p>
+                  </div>
+                </div>
+                <div className="card__header-right card__header-right--date">
+                  <span className="card__tag card__tag--muted">
+                    {t.education.physicsBadge}
+                  </span>
+                </div>
+              </div>
+
+              <div className="card__tags" style={{ marginBottom: "0.9rem" }}>
+                <span className="card__tag">{t.education.physicsTag}</span>
+              </div>
+
+              <ul className="card__list">
+                <li>{t.education.physicsItem}</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 

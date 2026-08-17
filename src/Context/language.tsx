@@ -59,6 +59,11 @@ export interface Translations {
     badge: string;
     tag: string;
     item: string;
+    university: string;
+    universityLocation: string;
+    physicsBadge: string;
+    physicsTag: string;
+    physicsItem: string;
   };
   about: {
     technicalSkillsTitle: string;
@@ -169,6 +174,12 @@ const en: Translations = {
     badge: "UK Ofqual",
     tag: "RQF Level 6",
     item: "Ofqual-regulated qualification covering software engineering, database systems, networking, cybersecurity, cloud technologies, and IT project management.",
+    university: "Moulay Ismail University",
+    universityLocation: "Meknès",
+    physicsBadge: "Not Completed",
+    physicsTag: "B.Sc. in Physics",
+    physicsItem:
+      "Redirected focus toward self-taught software development — 4+ years of independent full-stack experience since.",
   },
   about: {
     technicalSkillsTitle: "Technical Skills",
@@ -325,6 +336,12 @@ const fr: Translations = {
     badge: "Ofqual – Royaume-Uni",
     tag: "RQF Niveau 6",
     item: "Diplôme accrédité Ofqual couvrant le génie logiciel, les bases de données, les réseaux, la cybersécurité, le cloud et la gestion de projets informatiques.",
+    university: "Université Moulay Ismaïl",
+    universityLocation: "Meknès",
+    physicsBadge: "Non terminé",
+    physicsTag: "Licence en Physique",
+    physicsItem:
+      "Réorientation vers le développement logiciel autodidacte — plus de 4 ans d'expérience full-stack indépendante depuis.",
   },
   about: {
     technicalSkillsTitle: "Compétences techniques",
@@ -482,6 +499,12 @@ const ar: Translations = {
     badge: "Ofqual – المملكة المتحدة",
     tag: "RQF – المستوى السادس",
     item: "شهادة معتمدة من Ofqual تشمل هندسة البرمجيات، وقواعد البيانات، والشبكات، والأمن السيبراني، والحوسبة السحابية، وإدارة مشاريع تكنولوجيا المعلومات.",
+    university: "جامعة مولاي إسماعيل",
+    universityLocation: "مكناس",
+    physicsBadge: "غير مكتملة",
+    physicsTag: "بكالوريوس في الفيزياء",
+    physicsItem:
+      "إعادة التوجه نحو تطوير البرمجيات بشكل ذاتي — أكثر من 4 سنوات من الخبرة المستقلة في التطوير الشامل (Full-Stack) منذ ذلك الحين.",
   },
   about: {
     technicalSkillsTitle: "المهارات التقنية",
@@ -638,6 +661,12 @@ const ja: Translations = {
     badge: "英国 Ofqual 認定",
     tag: "RQFレベル6",
     item: "ソフトウェア工学・データベース・ネットワーク・サイバーセキュリティ・クラウド技術・ITプロジェクト管理を網羅する、Ofqual認定の資格。",
+    university: "ムーレイ・イスマイル大学",
+    universityLocation: "メクネス",
+    physicsBadge: "中退",
+    physicsTag: "物理学 学士課程",
+    physicsItem:
+      "独学でのソフトウェア開発へ方向転換 — それ以降、4年以上のフルスタック開発の実務経験を積む。",
   },
   about: {
     technicalSkillsTitle: "技術スキル",
