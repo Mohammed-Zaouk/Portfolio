@@ -163,7 +163,7 @@ export default function Home() {
                 </a>
                 <span className="card__link-sep">·</span>
                 <a
-                  href="https://dawamz.com"
+                  href="https://play.google.com/store/apps/details?id=com.dawamzsorganization.dawamz"
                   target="_blank"
                   rel="noreferrer"
                   className="card__link"
