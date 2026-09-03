@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./Components/navbar";
 import Background from "./Components/background";
 import NotFound from "./Components/not_found";
@@ -38,6 +39,7 @@ export default function App() {
           </Routes>
         </Background>
       </BrowserRouter>
+      <Analytics />
     </LanguageProvider>
   );
 }
